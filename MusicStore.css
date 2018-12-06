@@ -1,0 +1,196 @@
+
+body{
+	background-color:#F0F8FF;
+	background-image:url('images/backgroundmusic.jpg');
+	margin:auto;
+	min-width:800px;
+}
+#logo{
+	color: rgb(179, 2, 37);
+	font-size: 72px;
+	text-align:center;
+}
+#wrapper {
+	width: 80%;
+	margin: auto;
+	background-color:white;
+	overflow: auto;
+	padding: 2px;
+}
+#navigation {
+	text-align: Left;
+	width: 100%;
+	margin: auto;
+}
+
+#content{
+	color:black;
+}
+table{
+	margin:auto;	
+}
+p{
+	font-family: "Arial", sans-serif;
+	color:black;
+}
+
+a:link{
+	
+	text-decoration:none;
+}
+a{
+	padding:10px;
+}
+a:link {
+	color: #3d3d29;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: skyblue;
+	font-size: 28px;
+}
+
+a:active {
+	color: purple;
+}
+
+td:hover{
+	background-color:#79a6d2;
+}
+
+h2{
+	text-align:left;
+	font-size:22px;
+	color:olive;
+}
+/* #container, th,td,tr{
+	text-align:center;
+	border:1px solid #f0f0f0;
+	padding:1px;
+	margin:auto;
+	font-size:22px;
+	font-weight:bold;
+	display: flex; 
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+} */
+#container{
+	text-align:center;
+	border:1px solid #DCDCDC;
+	padding:1px;
+	margin:auto;
+	font-size:22px;
+	font-weight:bold;
+	display: flex; /* or inline-flex
+	flex-wrap: wrap; */
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+.conTable td{
+	text-align:left;
+	border:1px solid #f0f0f0;
+	padding:1px;
+	margin:auto;
+}
+
+#proNews,#proNews1,#proNews2{
+	float:left;
+	border:1px solid #f0f0f0;
+}
+
+/* .proImage{
+	float:right;
+	width:30%;
+} */
+/* .news{
+	float:left;
+	width:65%;
+} */
+
+.centered{
+	font-size:20px;
+	position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-30%, 100%);
+	color: olive;
+}
+#forms{
+	width:100%;
+	margin:auto;
+	background-color:#DCDCDC;
+	color:black;
+}
+#personal{
+	background-color:#DCDCDC;
+}
+#contact{
+	float:left;
+	padding:15px;
+}
+/*}*/
+.conTable{
+	text-align:left;
+	border:5px solid black;
+	padding:5px;
+	margin:auto;
+	width: 170%; /*Added new */
+}
+.loc{
+	float:right;
+	width:25%
+}
+.tableheading{
+	font-size:20px;
+	color:black;
+	text-align:left;
+}
+.footer{
+	text-align:center;
+	padding-bottom:1px;
+	background-color:olive;
+	clear:left;
+	margin:auto;
+	overflow:auto;
+}
+*{
+    box-sizing: border-box;
+}
+
+.servicescolumns {
+    float: left;
+    width: 30.33%;
+    padding: 45px;
+	
+}
+
+
+.servicesrow:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#musicclass{
+	background-color:#F0F8FF;
+	background-image:url('images/ComingSoon.jpg');
+	background-size:cover;
+	height:100%;
+}
+#fieldset{
+	background-color:#DCDCDC;
+}
+
+
+
+
+	
+
+
